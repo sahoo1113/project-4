@@ -1,0 +1,131 @@
+body{
+    height: 100px;
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    font-size: 60px;
+}
+p{
+    text-align: center;
+}
+.large-laptop
+.large-laptop
+.mobile
+.tablet{
+     text-align: center;
+     display: none;
+     font-size: 40px;
+} 
+/* media qurey using max-widtth */
+@media screen and (max-width:1440px) {
+    body{
+        background-color: brown;
+    }
+    .large-laptop{
+        display: block;
+    }
+}
+@media screen and(max-width:1024px) {
+    body{
+        background-color: bisque;
+    }
+    .large-laptop{
+        display: none;
+    }
+    .laptop{
+        display: block;
+    }
+}
+@media screen and(max-width:768px) {
+    body{
+        background-color: antiquewhite;
+    }
+    .large-laptop{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+@media screen and(max-width:425px) {
+    body{
+        background-color: azure;
+    }
+    .large-laptop{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+    .tablet{
+        display: block;
+    }
+}
+/* media qurey using min-width */
+@media  screen and (min-width:0px) {
+    body{
+        background-color: blueviolet;
+    }
+    .tablet{
+        display: block;
+    }
+}
+@media  screen and (min-width:425px) {
+    body{
+        background-color: cornsilk;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
+}
+@media screen and(min-width:768px) {
+    body{
+        background-color: darkcyan;
+    }
+    .tablet
+        {
+         display: none;
+        }
+        .mobile{
+            display: none;
+        }
+    .laptop{
+        display: block;
+    }
+    
+}
+@media  screen and (min-width:1024px) {
+    body{
+        background-color: deepskyblue;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile
+        {
+         display: none;
+        }
+    .laptop{
+        display: none;
+    }
+    .large-laptop{
+        display: block;
+    }
+}
+/* media qurey using both max-width and min-width */
+@media  screen and(min-width:425px)and(max-width:768px) {
+    body{
+        background-color: darkgray;
+    }
+}
